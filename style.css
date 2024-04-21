@@ -27,6 +27,18 @@ h1{
     margin-block: 8px;
 }
 
+.inputBox{
+    position: relative;
+}
+
+.inputBox span{
+    position: absolute;
+    top: 8px;
+    right: 1px;
+    color: black;
+    cursor: pointer;
+}
+
 .inputBox input[type="text"]{
     width: 410px;
     border: none;
